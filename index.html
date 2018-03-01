@@ -43,7 +43,8 @@
         <li role="presentation" class="active"><a href="#homedesc" aria-controls="homedesc" role="tab" data-toggle="tab">EcoPAD</a></li>
         <li role="presentation"><a id="image_link" href="#forecast_images" aria-controls="imageflow" role="tab" data-toggle="tab">SPRUCE Forecasting</a></li>
         <li role="presentation"><a id="workflow_link" href="#workflow" aria-controls="workflow" role="tab" data-toggle="tab">Custom Workflow</a></li>
-        
+        <li role="presentation"><a id="register_link" href="#register" aria-controls="register" role="tab" data-toggle="tab">New User Request</a></li>
+
     </ul>
     <div id="myTabContent1" class="tab-content" style="margin-bottom:0px">
         <div role="tabpanel" class="tab-pane fade in active" id="homedesc">
@@ -74,6 +75,22 @@
 				<div id="two_images" style="clear:both;"> </div>
         </div>
         
+
+       <div role="tabpanel" class="tab-pane fade in " id="register">
+		   <div style="width:75%" align="left"> 
+            <h2>New User Request Form</h2>
+            <form action="https://formspree.io/ws328@nau.edu" method="POST">
+    			<p>First Name: <input type="text" name="first_name"> </p>
+    			<p>Last Name: <input type="text" name="last_name"> </p>
+   				<p>Email Address: <input type="email" name="email"></p>
+   				<p>Your research focus: <input type="text" name="research_focus"> </p>
+   				<p>Why you interested in EcoPAD system? <br><textarea type="text" name="reason"></textarea></p>
+    			<p><input type="submit" value="Submit"></p>
+			</form>
+            </div>
+ 
+        </div>
+
         <div role="tabpanel" class="tab-pane fade" id="workflow">
 <!-- Start inside tab -->
 <div role="tabpanel" class="tabbable" >
